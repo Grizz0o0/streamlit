@@ -7,8 +7,8 @@ import plotly.express as px
 movies_data = pd.read_csv("https://raw.githubusercontent.com/nv-thang/Data-Visualization-Course/main/movies.csv")
 
 # Tiêu đề trang
-st.markdown("<h1 style='width:1000px; float: left'>Interactive Dashboard</h1>", unsafe_allow_html=True)
-st.markdown("<h2 style='width:1000px'>Interact with this dashboard using the widgets on the sidebar</h2>", unsafe_allow_html=True)
+st.markdown("<h1 style='width:800px; float: left'>Interactive Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='width:800px'>Interact with this dashboard using the widgets on the sidebar</h2>", unsafe_allow_html=True)
 
 # Phân chia layout thành hai cột
 left_column, right_column = st.columns(2)
