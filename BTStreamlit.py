@@ -7,18 +7,6 @@ import plotly.express as px
 movies_data = pd.read_csv("https://raw.githubusercontent.com/nv-thang/Data-Visualization-Course/main/movies.csv")
 
 # Tiêu đề trang
-st.markdown(
-    """
-    <style>
-     .main .block-container {
-        min-width: 1200px;
-        padding-left: 0rem;
-        padding-right: 0rem;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 st.markdown("<h1 style='width:1000px; float: left'>Interactive Dashboard</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='width:1000px'>Interact with this dashboard using the widgets on the sidebar</h2>", unsafe_allow_html=True)
 
